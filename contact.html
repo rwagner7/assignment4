@@ -25,12 +25,12 @@
     </header>
     
     <main>
-     <form>
+     <form style="color: black">
        <p>Please fill out this form for more information!</p> 
         
          
-         <label for="firstname"> First Name &#58; </label>
-         <input type="text" name="firstname" id="firstname">
+         <p><label for="firstname"> First Name &#58; </label>
+         <input type="text" name="firstname" id="firstname"></p>
          
          <p><label for="lastname"> Last Name &#58; </label>
          <input type="text" name="lastname" id="lastname"></p>
@@ -47,6 +47,21 @@
                     <option value="selfportrait">His Self-Portrait</option>
                 </select>
             </p>
+         
+         <div class="radio-buttons">
+                <label for="factemails">Would you like to recieve weekly Van Gogh facts?</label>
+                <input type="radio" name="factemails" value="Yes" checked>Yes
+                <input type="radio" name="factemails" value="No">No
+            </div>
+            <br>
+
+
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+
 
 
 
